@@ -1,4 +1,4 @@
-function snackFunc(str) {
+function Snackbar(str) {
   document.body.innerHTML += '<div id="snackbar">'+str+'</div>';
   var x = document.getElementById("snackbar");
   x.className = "show";
